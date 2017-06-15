@@ -1,0 +1,27 @@
+.width-layout {
+	max-width:1280px;
+	margin:0 auto;
+}
+#job-info {
+	@include full;
+	margin:2% 10%;
+}
+#job-details {
+	float: left;
+	h1 {
+    @include responsive-typography(20px, 41px, false);
+    line-height: 1.4;
+}
+	p {
+		margin: 0;
+	}
+}
+#img-grid {
+	clear:right;
+}
+#fusion-logo {
+	@include display-flex;
+	// @include justify-content(center);
+	max-width:15%;
+	margin:0 auto;
+}

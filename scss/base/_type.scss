@@ -65,13 +65,14 @@ body {
 }
 
 h1, h2, h3, h4 {
-    // font-family: $serif;
+    font-family: $serif;
     font-weight: 400;   
 }
 
 h1 {
     @include responsive-typography(24px, 50px);
     margin: 0 0 $base-spacing-unit;
+    color: $primary;
 
     small {
         @include responsive-typography(16px, 24px);
