@@ -30,7 +30,7 @@
 
 footer {
   @include full;
-  background: darken($primary,20%);
+  background: $black;
   margin-top: 5%;
   color: white;
   font-size: 12px;
@@ -39,6 +39,7 @@ footer {
     @include display-flex;
     @include flex-direction(column);
     padding: 5%;
+    padding-bottom:0;
     margin-bottom: 20%;
      a {
         color:$link;
@@ -52,10 +53,11 @@ footer {
       @include display-flex;
       @include flex-direction(column);
       @include align-items(center);
+      margin-bottom: 20%;
       @include breakpoint($medium) {
+        margin-bottom: 0;
         @include align-items(flex-start);
       }
-      
     }
     h2  {
       text-align: center;

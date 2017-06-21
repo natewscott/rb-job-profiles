@@ -6,6 +6,7 @@
   font-weight: 100;
   background-color: #eee;
   box-sizing: border-box;
+  background-color: lighten($black,90%);
 }
 
 *, *:before, *:after {
@@ -24,6 +25,7 @@
    a {
     color: $link;
     text-decoration: none;
+    cursor: pointer;
   }
 
 .page-wrap {
