@@ -32,7 +32,7 @@
 }
 
 .lightbox img {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotateY(0deg);
@@ -116,10 +116,16 @@
 }
 
 .title {
+  width: 100%;
   font-size: 20px;
-  color: #000;
-  z-index: 1000;
+  // z-index: 1000;
   position: absolute;
   top: 0;
   left: 0;
+
+  h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
 }

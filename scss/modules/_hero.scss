@@ -1,8 +1,8 @@
 #gilroy-gardens {
-    background-image: url("../img/hero/gilroy-heartlands-small.jpg");
+    background-image: url("../img/hero/gilroy/gilroy-heartlands-small.jpg");
     background-position:top;
     @include breakpoint ($large) {
-	   background-image: url("../img/hero/gilroy-heartlands-1.jpg");
+	   background-image: url("../img/hero/gilroy/gilroy-heartlands-1.jpg");
     }
 	background-repeat: no-repeat;
     background-position: 0;
@@ -25,10 +25,22 @@
 // }
 
 #moss-land {
-    background-image: url("../img/hero/Moss Landing Power Plant-177-small.jpg");
+    background-image: url("../img/hero/moss/Moss Landing Power Plant-177-small.jpg");
     background-position:top;
     @include breakpoint ($large) {
-       background-image: url("../img/hero/Moss Landing Power Plant-37.jpg");
+       background-image: url("../img/hero/moss/Moss Landing Power Plant-37.jpg");
+    }
+    background-repeat: no-repeat;
+    background-position: 0;
+    @include background-size(cover);
+    width: 100%;
+    height: 100vh;
+}
+#armona-well {
+    background-image: url("../img/hero/Harmona/anford Well Arsenic Removal-92-sm.jpg");
+    background-position:top;
+    @include breakpoint ($large) {
+       background-image: url("../img/hero/armona/Hanford Well Arsenic Removal-92.jpg");
     }
     background-repeat: no-repeat;
     background-position: 0;
