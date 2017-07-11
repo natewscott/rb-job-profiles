@@ -61,6 +61,7 @@ $break-stop: $break-end - 1px;
 
 body {
     @include responsive-typography(18px, 21px);
+    font-weight: 400;
     padding: $base-spacing-unit * 2; 
 }
 
@@ -96,9 +97,18 @@ h4 {
     margin: 0;
 }
 
-p {
+p, a {
+    @include responsive-typography(21px, 24px);
+      font-weight: 400;
+      @include breakpoint($large) {
+        font-weight: 300;
+      }
+    margin-bottom: $base-spacing-unit;
+}
+
+li {
+    @include responsive-typography(19px, 21px);
     font-weight: 300;
-    // font-weight: $sans-regular;
     margin-bottom: $base-spacing-unit;
 }
 

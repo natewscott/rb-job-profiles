@@ -51,7 +51,7 @@ module.exports = function(grunt) {
     'js/functions.js'
     ],
     // the location of the resulting JS file
-    dest: 'build/js/main.js'
+    dest: 'build/js/profile-main.js'
   }
 },//Conacat
 
@@ -60,7 +60,7 @@ uglify: {
     src: ['js/vendor/*.js',
     'js/functions.js'
     ],
-    dest: 'build/js/main.js'
+    dest: 'build/js/profile-main.js'
   }
   },//Uglify
 
@@ -113,7 +113,7 @@ uglify: {
       files: [{
         expand: true,
         cwd: 'img/',
-        src: ['**/*.{png,jpg,jpeg,gif,webp}'],
+        src: ['**/*.{png,jpg,jpeg,gif,webp,svg}'],
         dest: 'build/img'
       }]
      }
@@ -149,5 +149,5 @@ grunt.loadNpmTasks('grunt-shell');
 
 
 
-grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'shell:bundler', 'bower', 'compass:dev', 'includes', 'connect', 'watch']);
+grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'shell:bundler', 'bower', 'compass:dist', 'includes', 'connect', 'watch']);
 };//exports

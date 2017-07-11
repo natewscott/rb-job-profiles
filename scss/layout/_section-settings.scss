@@ -13,21 +13,45 @@
 }
 #job-details {
 	float:none;
-	@include breakpoint($medium) {
+	// width:100%;
+	@include breakpoint($large) {
 		float: left;
 	}
 	
 	h1 {
-    @include responsive-typography(20px, 41px, false);
-    line-height: 1.4;
-}
+    // @include responsive-typography(41px, 48px, false);
+    // line-height: 1.4;
+	}
+	#small {
+		display: block;
+		text-align: center;
+			@include breakpoint($large) {
+				display: none;
+			}
+	}
+	#large {
+		display: none;
+			@include breakpoint($large) {
+				display: block;
+			}
+	}
+	ul {
+		text-align: center;
+			@include breakpoint($large) {
+				text-align: left;
+			}
+	}
 	p {
+		// @include responsive-typography(38px, 24px);
 		margin: 0;
 	}
 }
-#img-grid {
-	clear:right;
-}
+// #img-grid {
+// 	clear:none;
+// 		@include breakpoint($medium) {
+// 			clear:right;
+// 		}
+// }
 #fusion-logo {
 	@include display-flex;
 	max-width:30%;

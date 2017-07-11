@@ -25,7 +25,7 @@
 // }
 
 #moss-land {
-    background-image: url("../img/hero/moss/Moss Landing Power Plant-177-small.jpg");
+    background-image: url("../img/hero/Moss Landing Power Plant-177-small.jpg");
     background-position:top;
     @include breakpoint ($large) {
        background-image: url("../img/hero/moss/Moss Landing Power Plant-37.jpg");
@@ -37,7 +37,7 @@
     height: 100vh;
 }
 #armona-well {
-    background-image: url("../img/hero/Harmona/anford Well Arsenic Removal-92-sm.jpg");
+    background-image: url("../img/hero/armona/Hanford Well Arsenic Removal-92-sm.jpg");
     background-position:top;
     @include breakpoint ($large) {
        background-image: url("../img/hero/armona/Hanford Well Arsenic Removal-92.jpg");

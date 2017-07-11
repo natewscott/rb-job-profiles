@@ -1,9 +1,13 @@
 
-
 #img-grid {
-  column-width: 300px;
+  clear:none;
+  column-width: 100%;
   column-gap: 5px;
   padding: 15px;
+    @include breakpoint($large) {
+      column-width: 300px;
+      clear:right;
+    }
 }
 
 #img-grid img {
