@@ -522,8 +522,20 @@ a {
   margin-right: 0;
 }
 
+/* line 2, ../../scss/global/_nav.scss */
+header {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: fixed;
+}
+
 /* Menu Styles */
-/* line 4, ../../scss/global/_nav.scss */
+/* line 12, ../../scss/global/_nav.scss */
 #menu {
   position: fixed;
   top: 0;
@@ -542,7 +554,7 @@ a {
   transition: 0.30s ease;
 }
 
-/* line 22, ../../scss/global/_nav.scss */
+/* line 30, ../../scss/global/_nav.scss */
 #menu.active {
   background-color: #fefefe;
   -webkit-transform: translate(260px, 0px);
@@ -552,7 +564,7 @@ a {
   transform: translate(260px, 0px);
 }
 
-/* line 31, ../../scss/global/_nav.scss */
+/* line 39, ../../scss/global/_nav.scss */
 .container {
   position: fixed;
   width: 100%;
@@ -567,7 +579,7 @@ a {
   transition: 0.30s ease;
 }
 
-/* line 45, ../../scss/global/_nav.scss */
+/* line 53, ../../scss/global/_nav.scss */
 .container.active {
   -webkit-transform: translate(260px, 0px);
   -moz-transform: translate(260px, 0px);
@@ -577,7 +589,7 @@ a {
 }
 
 /* List styling... not necessary for demo */
-/* line 55, ../../scss/global/_nav.scss */
+/* line 63, ../../scss/global/_nav.scss */
 ul, ol {
   list-style: none;
   text-decoration: none;
@@ -585,18 +597,18 @@ ul, ol {
   padding: 0;
 }
 
-/* line 62, ../../scss/global/_nav.scss */
+/* line 70, ../../scss/global/_nav.scss */
 #menu ul.mobile-nav > li > a {
   color: #0033a0;
   font-size: 24px;
 }
 
-/* line 68, ../../scss/global/_nav.scss */
+/* line 76, ../../scss/global/_nav.scss */
 .mobile-nav ul.sub-menu {
   text-transform: uppercase;
 }
 
-/* line 72, ../../scss/global/_nav.scss */
+/* line 80, ../../scss/global/_nav.scss */
 .mobile-nav a {
   display: block;
   color: #777779;
@@ -605,20 +617,20 @@ ul, ol {
   text-decoration: none;
 }
 
-/* line 80, ../../scss/global/_nav.scss */
+/* line 88, ../../scss/global/_nav.scss */
 .mobile-nav a:hover {
   background: #4c70bc;
   color: white !important;
 }
 
 /* Nav Icon */
-/* line 87, ../../scss/global/_nav.scss */
+/* line 95, ../../scss/global/_nav.scss */
 #nav-icon {
   width: 80px;
   height: 80px;
   display: block;
   position: absolute;
-  top: 40px;
+  top: 10px;
   left: 20px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -632,7 +644,7 @@ ul, ol {
   display: block;
 }
 
-/* line 109, ../../scss/global/_nav.scss */
+/* line 117, ../../scss/global/_nav.scss */
 #nav-icon span {
   display: block;
   height: 10px;
@@ -651,14 +663,14 @@ ul, ol {
   transition: .25s ease-in-out;
 }
 
-/* line 131, ../../scss/global/_nav.scss */
+/* line 139, ../../scss/global/_nav.scss */
 #nav-icon {
   background: url("../img/misc/wrench.svg");
   text-decoration: none;
   color: #FF530D;
 }
 
-/* line 138, ../../scss/global/_nav.scss */
+/* line 146, ../../scss/global/_nav.scss */
 #nav-icon:after {
   content: "";
   margin-left: 40px;
@@ -668,7 +680,7 @@ ul, ol {
   line-height: 0.95em;
 }
 
-/* line 147, ../../scss/global/_nav.scss */
+/* line 155, ../../scss/global/_nav.scss */
 #nav-icon span:nth-child(1) {
   top: 0px;
   -webkit-transform-origin: left center;
@@ -677,7 +689,7 @@ ul, ol {
   transform-origin: left center;
 }
 
-/* line 155, ../../scss/global/_nav.scss */
+/* line 163, ../../scss/global/_nav.scss */
 #nav-icon span:nth-child(2) {
   top: 8px;
   -webkit-transform-origin: left center;
@@ -686,7 +698,7 @@ ul, ol {
   transform-origin: left center;
 }
 
-/* line 163, ../../scss/global/_nav.scss */
+/* line 171, ../../scss/global/_nav.scss */
 #nav-icon span:nth-child(3) {
   top: 16px;
   -webkit-transform-origin: left center;
@@ -696,7 +708,7 @@ ul, ol {
 }
 
 /* Icon Animation */
-/* line 196, ../../scss/global/_nav.scss */
+/* line 204, ../../scss/global/_nav.scss */
 #menu.active {
   overflow-y: scroll;
   overflow-x: hidden;

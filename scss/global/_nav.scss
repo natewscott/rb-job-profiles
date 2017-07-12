@@ -1,4 +1,12 @@
 
+header {
+  @include full;
+  height: 100px;
+  background-color:rgba(black,.25);
+  position:fixed;
+}
+
+
 /* Menu Styles */
 
 #menu {
@@ -92,7 +100,7 @@ ul, ol {
   height: 80px;
   display: block;
   position: absolute;
-  top: 40px;
+  top: 10px;
   left: 20px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
