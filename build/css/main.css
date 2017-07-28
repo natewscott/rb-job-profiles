@@ -1553,9 +1553,9 @@ fieldset .legend {
   text-align: left;
 }
 
-/* line 1, ../../scss/modules/_hero.scss */
+/* line 2, ../../scss/modules/_hero.scss */
 #gilroy-gardens {
-  background-image: url("../img/hero/gilroy/gilroy-heartlands-small.jpg");
+  background-image: url("../img/hero/gilory/gilroy-heartlands-small.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-position: 0;
@@ -1563,15 +1563,17 @@ fieldset .legend {
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 @media (min-width: 75em) {
-  /* line 1, ../../scss/modules/_hero.scss */
+  /* line 2, ../../scss/modules/_hero.scss */
   #gilroy-gardens {
-    background-image: url("../img/hero/gilroy/gilroy-heartlands-1.jpg");
+    background-image: url("../img/hero/gilory/Gilroy Heartlands-123.jpg");
   }
 }
 
-/* line 27, ../../scss/modules/_hero.scss */
+/* line 14, ../../scss/modules/_hero.scss */
 #moss-land {
   background-image: url("../img/hero/Moss Landing Power Plant-177-small.jpg");
   background-position: top;
@@ -1585,13 +1587,13 @@ fieldset .legend {
   height: 100vh;
 }
 @media (min-width: 75em) {
-  /* line 27, ../../scss/modules/_hero.scss */
+  /* line 14, ../../scss/modules/_hero.scss */
   #moss-land {
     background-image: url("../img/hero/moss/Moss Landing Power Plant-37.jpg");
   }
 }
 
-/* line 39, ../../scss/modules/_hero.scss */
+/* line 26, ../../scss/modules/_hero.scss */
 #armona-well {
   background-image: url("../img/hero/armona/Hanford Well Arsenic Removal-92-sm.jpg");
   background-position: top;
@@ -1605,9 +1607,49 @@ fieldset .legend {
   height: 100vh;
 }
 @media (min-width: 75em) {
-  /* line 39, ../../scss/modules/_hero.scss */
+  /* line 26, ../../scss/modules/_hero.scss */
   #armona-well {
     background-image: url("../img/hero/armona/Hanford Well Arsenic Removal-92.jpg");
+  }
+}
+
+/* line 38, ../../scss/modules/_hero.scss */
+#landels-school {
+  background-image: url("../img/hero/landels/Landels School-428-sm.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position: 0;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+@media (min-width: 75em) {
+  /* line 38, ../../scss/modules/_hero.scss */
+  #landels-school {
+    background-image: url("../img/hero/landels/Landels School-428.jpg");
+  }
+}
+
+/* line 50, ../../scss/modules/_hero.scss */
+#cv-drought-relief {
+  background-image: url("../img/hero/cv-drought-relief/Landels School-428-sm.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position: 0;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+@media (min-width: 75em) {
+  /* line 50, ../../scss/modules/_hero.scss */
+  #cv-drought-relief {
+    background-image: url("../img/hero/drought-relief/Nicholas Construction-47.jpg");
   }
 }
 
